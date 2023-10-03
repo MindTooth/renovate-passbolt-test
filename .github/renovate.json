@@ -7,8 +7,6 @@
     {
       "matchPackageNames": ["passbolt/passbolt"],
 
-      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<build>\\d+)-(?<compatibility>.*))?$",
-
       "versionCompatibility": "(?<version>[^-]+)-(?<build>\\d+)-(?<compatibility>.*)$",
 
       "customChangelogUrl": "https://github.com/passbolt/passbolt_api"
