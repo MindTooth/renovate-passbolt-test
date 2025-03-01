@@ -1,15 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
 
-  "extends": ["config:recommended"],
-
-  "packageRules": [
-    {
-      "matchPackageNames": ["passbolt/passbolt"],
-
-      "versionCompatibility": "(?<version>[^-]+)-(?<build>\\d+)-(?<compatibility>.*)$",
-
-      "customChangelogUrl": "https://github.com/passbolt/passbolt_api"
-    }
-  ]
+  "extends": ["config:recommended"]
 }
