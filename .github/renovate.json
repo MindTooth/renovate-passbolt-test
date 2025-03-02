@@ -6,10 +6,8 @@
   "packageRules": [
     {
       "matchPackageNames": ["passbolt/passbolt"],
-
-      "versionCompatibility": "(?<version>[^-]+)-(?<build>\\d+)-(?<compatibility>.*)$",
-
-      "customChangelogUrl": "https://github.com/passbolt/passbolt_api"
+      "changelogUrl": "https://github.com/passbolt/passbolt_api",
+      "sourceUrl": "https://github.com/passbolt/passbolt_api"
     }
   ]
 }
