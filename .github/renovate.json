@@ -3,5 +3,12 @@
 
   "extends": ["config:recommended"],
 
-  "enabledManagers": ["dockerfile"]
+  "enabledManagers": ["dockerfile"],
+
+  "packageRules": [
+    {
+      "matchPackageNames": ["passbolt/passbolt"],
+      "sourceUrl": "https://github.com/passbolt/passbolt_api"
+    }
+  ]
 }
