@@ -1,1 +1,1 @@
-FROM passbolt/passbolt:4.9.0-1-ce
+FROM passbolt/passbolt:5.1.1-1-ce
