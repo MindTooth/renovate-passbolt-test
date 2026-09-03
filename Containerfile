@@ -1,4 +1,4 @@
-FROM passbolt/passbolt:5.1.1-1-ce as passbolt
+FROM passbolt/passbolt:5.15.0-1-ce as passbolt
 
 FROM timberio/vector:0.58.0-debian as vector
 
